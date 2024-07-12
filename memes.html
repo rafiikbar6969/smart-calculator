@@ -7,6 +7,7 @@
     <style>
       body {
         font-size: 24px;
+        text-align: center;
       }
 
       h1 {
@@ -38,6 +39,7 @@
 
       .slow-image {
         display: none;
+        margin: auto;
       }
     </style>
   </head>
@@ -84,7 +86,7 @@
 
       function loadSlowImage() {
         var img = new Image();
-        img.src = "WhatsApp Image 2024-07-12 at 02.17.46_4b747362.jpg";
+        img.src = "Congrats.png";
         img.onload = function () {
           var canvas = document.querySelector(".slow-image");
           var ctx = canvas.getContext("2d");
